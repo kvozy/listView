@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         val editText = findViewById<EditText>(R.id.editText)
         val button = findViewById<Button>(R.id.button)
-        val listView = findViewById<ListView>(R.id.listView)
+        val listView = findViewById<ListView>(R.id.list)
 
         arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_checked, array)
 
